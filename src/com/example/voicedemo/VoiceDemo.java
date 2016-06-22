@@ -138,7 +138,7 @@ public boolean onKeyDown(int keyCode, KeyEvent event) {
 		sbPlayerVoice.setProgress(currentVolume);
 		//audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, AudioManager.ADJUST_RAISE, 0);
 		//txtHint.setText(audioManager.getStreamVolume(AudioManager.STREAM_MUSIC)+"/"+audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC));
-		return true;
+		return true;  //Òþ²ØÏµÍ³ÒôÁ¿
 	case KeyEvent.KEYCODE_VOLUME_DOWN:
 		//audioManager.adjustStreamVolume(AudioManager.STREAM_MUSIC, AudioManager.ADJUST_LOWER, AudioManager.FLAG_SHOW_UI);
 		//audioManager.setStreamVolume(AudioManager.STREAM_SYSTEM, audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC), AudioManager.FLAG_REMOVE_SOUND_AND_VIBRATE);
